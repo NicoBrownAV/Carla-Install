@@ -47,11 +47,11 @@ You can download the additional maps. Make sure to merge with the content folder
     './CarlaUE4.sh'
 
 #### Step10: Navigate to PythonAPI directory for installing python requirment for using the built-in python examples. 
-  python3 -m pip install -r requirement.txt
+    'python3 -m pip install -r requirement.txt'
 
 #### Examples Folder in Python API directory
-  'python3 generate_traffic.py'
-  'python3 manual_control.py'
+    'python3 generate_traffic.py'
+    'python3 manual_control.py'
 
 
  
