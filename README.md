@@ -1,6 +1,6 @@
 # Carla-Install
-##CARLA 0.9.15 Ubuntu 22.04 Installation 
-##Installation Instructions for CARLA Linux
+## CARLA 0.9.15 Ubuntu 22.04 Installation 
+## Installation Instructions for CARLA Linux
 
 The following requirements should be fulfilled before installing CARLA:
 
