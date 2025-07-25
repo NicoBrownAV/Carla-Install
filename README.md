@@ -20,19 +20,19 @@ Step 2: upgrade if needed
   
 Step 3: Ipip installtion
 Check the version you have of pip if you have it already installed
- # For Python 3
+ For Python 3
   pip3 -V
- # For Python 2
+ For Python 2
   pip -V
 
 Install pip:
 sudo apt install python3-pip
 
 Upgrade if needed:
- # For Python 3
+ For Python 3
   pip3 install --upgrade pip
 
- # For Python 2
+ For Python 2
   pip install --upgrade pip
 
 Step 4: Install pygame numpy
