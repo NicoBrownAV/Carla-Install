@@ -51,7 +51,9 @@ You can download the additional maps. Make sure to merge with the content folder
 
 #### Examples Folder in Python API directory
     'python3 generate_traffic.py'
-    'python3 manual_control.py'
+    'python3 automatic_control.py'
+    'python3 dynamic_weather.py'
+    'python3 tutorial.py'
 
 
  
