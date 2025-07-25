@@ -49,7 +49,7 @@ You can download the additional maps. Make sure to merge with the content folder
 #### Step10: Navigate to PythonAPI directory for installing python requirment for using the built-in python examples. 
     'python3 -m pip install -r requirement.txt'
 
-#### Examples Folder in Python API directory
+#### Examples Folder in the Python API directory
     'python3 generate_traffic.py'
     'python3 automatic_control.py'
     'python3 dynamic_weather.py'
