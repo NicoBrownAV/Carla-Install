@@ -13,31 +13,28 @@ The following requirements should be fulfilled before installing CARLA:
 - Pip: Some installation methods of the CARLA client library require pip or pip3 (depending on your Python version) version 20.3 or higher. To check your pip version:
 
 Step 1: update before every installation
-  sudo apt update
+    sudo apt update
   
 Step 2: upgrade if needed
-  sudo apt upgrade
+    sudo apt upgrade
   
 Step 3: Ipip installtion
 Check the version you have of pip if you have it already installed
- For Python 3
-  pip3 -V
- For Python 2
-  pip -V
+    pip -V or pip3 -V    
 
-Install pip:
-sudo apt install python3-pip
+If pip is not installed:
+    sudo apt install python3-pip
 
 Upgrade if needed:
  For Python 3
-  pip3 install --upgrade pip
+    pip3 install --upgrade pip
 
  For Python 2
-  pip install --upgrade pip
+    pip install --upgrade pip
 
 Step 4: Install pygame numpy
-  pip install --user pygame numpy &&
-  pip3 install --user pygame numpy
+    pip install --user pygame numpy &&
+    pip3 install --user pygame numpy
 
 Step 5: Download the file for installation from Github
 Download CARLA 0.9.15 (*.tar.gz file)
@@ -49,13 +46,13 @@ Step 6: Create a directory for Carla Simulator and extract the file there for in
 - Extract the *.tar file in new dir (command line: tar -xvzf CARLA_0.9.15.tar.gz)
 
 Step 7: Build Carla : This builds the client for compability with python 3.10. * make sure you only have python 3.10. * this does not need an egg file
-  pip install carla
+    pip install carla
 
 Step 8: Additional Maps:
 You can download the additional maps. Make sure to merge with the content folder in CarlaUE4 folder the after building Carla  
 
 Step 9: Start Carla: From the Carla dir with the *.sh file:
-  ./CarlaUE4.sh
+    ./CarlaUE4.sh
 
 Step10: Navigate to PythonAPI directory for installing python requirment for using the built-in python examples. 
   python3 -m pip install -r requirement.txt
