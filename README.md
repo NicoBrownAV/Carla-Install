@@ -35,7 +35,7 @@ Download CARLA 0.9.15 (*.tar.gz file)
 #### Step 6: Create a directory for Carla Simulator and extract the file there for installtion
 - Make the folder using the UI (command line: mk dir name_of_folder)
 - Move the downloaded *.tar file to the new directory (command line: mv CARLA_0.9.15.tar.gz /path_to_new_dir) *in the downloads directory
-- Extract the *.tar file in new dir (command line: tar -xvzf CARLA_0.9.15.tar.gz)
+- Extract the *.tar file in new dir (command line: 'tar -xvzf CARLA_0.9.15.tar.gz')
 
 #### Step 7: Build Carla : This builds the client for compability with python 3.10. * make sure you only have python 3.10. * this does not need an egg file
     pip install carla
