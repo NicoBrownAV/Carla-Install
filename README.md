@@ -28,7 +28,7 @@
 #### Step 4: Install pygame numpy
     pip3 install --user pygame numpy
 
-#### Step 5: Download the file for installation from Github
+#### Step 5: Download the file for installation from Github (This will work for any version if you are using carla-ros-bridge download CARLA 0.9.13)
 Download CARLA 0.9.15 (*.tar.gz file)
 - https://github.com/carla-simulator/carla/blob/master/Docs/download.md
 
@@ -37,7 +37,7 @@ Download CARLA 0.9.15 (*.tar.gz file)
 - Move the downloaded *.tar file to the new directory (command line: mv CARLA_0.9.15.tar.gz /path_to_new_dir) *in the downloads directory
 - Extract the *.tar file in new dir (command line: tar -xvzf CARLA_0.9.15.tar.gz)
 
-#### Step 7: Build Carla : This builds the client for compability with python 3.10. * make sure you only have python 3.10. * this does not need an egg file
+#### Step 7: Build Carla : This builds the client for compability with python 3.10. * make sure you only have python 3.10. * this does not need an egg file. * if you are using a lower version than pip is not needed.
     pip install carla
 
 #### Step 8: Additional Maps:
@@ -46,6 +46,9 @@ You can download the additional maps. Make sure to merge with the content folder
 #### Step 9: Start Carla: From the Carla dir with the *.sh file:
     ./CarlaUE4.sh
 
+#### Step9.0: Import Additional Maps (place the .tar file for the additional maps into the import directory. Go to the Carla directory and run the following command)
+    ./ImportAssets.sh
+    
 #### Step10: Navigate to PythonAPI directory for installing python requirment for using the built-in python examples. 
     python3 -m pip install -r requirement.txt
 
